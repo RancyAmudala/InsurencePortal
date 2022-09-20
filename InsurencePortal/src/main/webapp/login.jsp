@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Sign Up Form by Colorlib</title>
+<title>Sign in Form</title>
 
 <!-- Font Icon -->
 <link rel="stylesheet"
@@ -20,29 +20,31 @@
 		<!-- Sing in  Form -->
 		<section class="sign-in">
 			<div class="container">
-				<div class="signin-content">
-					<div class="signin-image">
+				<div class="signup-content">
+					<div class="login-image">
 						<figure>
-							<img src="images/signin-image.jpg" alt="sing up image">
+							<img src="images/login-image.jpg" alt="login image">
 						</figure>
-						<a href="registration.jsp" class="signup-image-link">Create an
+						<a href="registration.jsp" class="login-image-link">Create an
 							account</a>
 					</div>
 
 					<div class="signin-form">
 						<h2 class="form-title">Sign in</h2>
-						<form method="" action="login" class="register-form"
+						<form method="post" action="login" class="register-form"
 							id="login-form">
 							<div class="form-group">
 								<label for="username"><i
 									class="zmdi zmdi-account material-icons-name"></i></label> <input
 									type="text" name="username" id="username"
 									placeholder="Your Name" />
+									<td><span style="color:red">*</span></td>
 							</div>
 							<div class="form-group">
 								<label for="password"><i class="zmdi zmdi-lock"></i></label> <input
 									type="password" name="password" id="password"
 									placeholder="Password" />
+									<td><span style="color:red">*</span></td>
 							</div>
 							<div class="form-group">
 								<input type="checkbox" name="remember-me" id="remember-me"
@@ -87,5 +89,5 @@
   }
 </script>
 </body>
-<!-- This templates was made by Colorlib (https://colorlib.com) -->
+
 </html>
