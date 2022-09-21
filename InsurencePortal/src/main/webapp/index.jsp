@@ -52,18 +52,26 @@
 					<li class="nav-item mx-0 mx-lg-1"><a
 						class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
 					<li class="nav-item mx-0 mx-lg-1"><a
-						class="nav-link py-3 px-0 px-lg-3 rounded" href="">Logout</a></li>
+						class="nav-link py-3 px-0 px-lg-3 rounded" href="logout">Logout</a></li>
+						<li class="nav-item mx-0 mx-lg-1 bg-danger"><a
+						class="nav-link py-3 px-0 px-lg-3 rounded" href="logout"><%=session.getAttribute("name") %></a></li>
 					
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<!-- Masthead-->
+	<div class="slider">
+
+        <div class="brand-banner">
+        <h3>nsv jewellery</h3>
+           <p1> SINCE 1973 </p1>
+          <p>Gorgeous Handcrafted Designer</p>
+        </div>
+
+    </div>
 	<header class="masthead bg-primary text-white text-center">
 		<div class="container d-flex align-items-center flex-column">
-			<!-- Masthead Avatar Image-->
-			<img class="masthead-avatar mb-5" src="assets/img/.png"
-				alt="..." />
 			<!-- Masthead Heading-->
 			<h1 class="masthead-heading text-uppercase mb-0">Welcome To Platinum Life</h1>
 			<!-- Icon Divider-->
@@ -74,8 +82,6 @@
 				</div>
 				<div class="divider-custom-line"></div>
 			</div>
-			<!-- Masthead Subheading-->
-			<p class="masthead-subheading font-weight-light mb-0">Health - Car - Insurance</p>
 		</div>
 	</header>
 	<!-- products Section-->
