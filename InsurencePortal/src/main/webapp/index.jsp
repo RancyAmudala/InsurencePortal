@@ -60,16 +60,7 @@
 			</div>
 		</div>
 	</nav>
-	<!-- Masthead-->
-	<div class="slider">
-
-        <div class="brand-banner">
-        <h3>nsv jewellery</h3>
-           <p1> SINCE 1973 </p1>
-          <p>Gorgeous Handcrafted Designer</p>
-        </div>
-
-    </div>
+<%@include file="slider.jsp"%>
 	<header class="masthead bg-primary text-white text-center">
 		<div class="container d-flex align-items-center flex-column">
 			<!-- Masthead Heading-->
@@ -218,13 +209,6 @@
 				<div class="col-lg-4 me-auto">
 					<p class="lead">Need to insert content</p>
 				</div>
-			</div>
-			<!-- About Section Button-->
-			<div class="text-center mt-4">
-				<a class="btn btn-xl btn-outline-light"
-					href="Insert Link Here"> <i
-					class="fas fa-download me-2"></i> Free Download!
-				</a>
 			</div>
 		</div>
 	</section>
@@ -392,10 +376,9 @@
 									src="assets/img/products/p1.png" alt="..." />
 								<!-- products Modal - Text-->
 								<p class="mb-4">Insert content here.</p>
-								<button class="btn btn-primary" href="#!"
-									data-bs-dismiss="modal">
-									<i class="fas fa-times fa-fw"></i> Close Window
-								</button>
+								<form action="Health.jsp">
+                                      <button type="submit">Health Schems</button>
+                                      </form>
 							</div>
 						</div>
 					</div>
@@ -434,7 +417,9 @@
 								<p class="mb-4">Insert content here</p>
 								<button class="btn btn-primary" href="#!"
 									data-bs-dismiss="modal">
-									<i class="fas fa-times fa-fw"></i> Close Window
+									<form action="Pension.jsp">
+                                      <button type="submit">Pension Schemes</button>
+                                      </form>
 								</button>
 							</div>
 						</div>
@@ -474,7 +459,9 @@
 								<p class="mb-4">Insert content here</p>
 								<button class="btn btn-primary" href="#!"
 									data-bs-dismiss="modal">
-									<i class="fas fa-times fa-fw"></i> Close Window
+									<form action="life.jsp">
+                                      <button type="submit">Life Schemes</button>
+                                      </form>
 								</button>
 							</div>
 						</div>
@@ -514,7 +501,9 @@
 								<p class="mb-4">Insert content here</p>
 								<button class="btn btn-primary" href="#!"
 									data-bs-dismiss="modal">
-									<i class="fas fa-times fa-fw"></i> Close Window
+									<form action="vehicle.jsp">
+                                      <button type="submit">Vehicle Schemes</button>
+                                      </form>
 								</button>
 							</div>
 						</div>
@@ -554,7 +543,9 @@
 								<p class="mb-4">Insert content here</p>
 								<button class="btn btn-primary" href="#!"
 									data-bs-dismiss="modal">
-									<i class="fas fa-times fa-fw"></i> Close Window
+									<form action="home.jsp">
+                                      <button type="submit">Home Schemes</button>
+                                      </form>
 								</button>
 							</div>
 						</div>
@@ -594,7 +585,9 @@
 								<p class="mb-4">Insert content here</p>
 								<button class="btn btn-primary" href="#!"
 									data-bs-dismiss="modal">
-									<i class="fas fa-times fa-fw"></i> Close Window
+									<form action="travel.jsp">
+                                      <button type="submit">Travel Schemes</button>
+                                      </form>
 								</button>
 							</div>
 						</div>
