@@ -7,33 +7,48 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>List Schems Records</title>
+<title>Schemes Record</title>
+
+<!-- css -->
+<link rel="stylesheet" href="css/products.css">
+<link rel="stylesheet" href="css/table.css">
+
 </head>
-<body style="background-color:#CCEEFF;">
+<body style="background-color:#fff;">
+
     <sql:setDataSource
         var="myDS"
         driver="com.mysql.jdbc.Driver"
-        url="jdbc:mysql://localhost:3306/Pension"
-        user="root" password="root123"
+        url="jdbc:mysql://localhost:3306/insurance"
+        user="root" password="Root@123"
     />
      
-    <sql:query var="pension"   dataSource="${myDS}">
-        SELECT * FROM scheme;
+    <sql:query var="insurance"   dataSource="${myDS}">
+        SELECT * FROM pension;
     </sql:query>
      
     <div align="center">
         <table border="10" cellpadding="25">
-            <caption><h2>List of Pension Schemes</h2></caption>
+            <caption><h1 class="color-h1">Pension Plans</h1>
+            <h5 class="color-h5">Timely Planning is the way to #RetireOnYoursTerms!
+            </br>
+			Start saving today to enjoy a worry-free retirement life. 
+			</br>
+			Buy a retirement plan now.</h5>
+            <h2 class="color-h2">List of Pension Schemes</h2></caption>
             <tr>
+            	<th>Serial No.</th>
                 <th>Plan Name</th>
                 <th>Plan No.</th>
                 <th>UIN No.</th>
+                
             </tr>
-            <c:forEach var="scheme" items="${pension.rows}">
+            <c:forEach var="pension" items="${insurance.rows}">
                 <tr>
-                    <td><c:out value="${scheme.Pname}" /></td>
-                    <td><c:out value="${scheme.PlanNo}" /></td>
-                    <td><c:out value="${scheme.UINno}" /></td>
+                	<td><c:out value="${pension.id}" /></td>
+                    <td><a href="${pension.details}"><c:out value="${pension.Pname}" /></a></td>
+                    <td><c:out value="${pension.PlanNo}" /></td>
+                    <td><c:out value="${pension.UINno}" /></td>
                 </tr>
             </c:forEach>
         </table>

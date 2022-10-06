@@ -26,8 +26,11 @@
 <link
 	href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
 	rel="stylesheet" type="text/css" />
-<!-- Core theme CSS (includes Bootstrap)-->
+
 <link href="css/index-styles.css" rel="stylesheet" />
+
+<link href="css/table.css" rel="stylesheet"/>
+
 </head>
 <body id="page-top">
 	<!-- Navigation-->
@@ -201,13 +204,18 @@
 			<!-- About Section Content-->
 			<div class="row">
 				<div class="col-lg-4 ms-auto">
-					<p class="lead">Every day we wake up to the fact that millions lives
-					 are part of our family called Platinum Life.
+					<p class="lead">Every day we wake up to the fact that millions of lives
+					 are part of our family called Platinum Life and we are committed to offer 
+					 services that enable individuals live a 'Life of Pride'.
 					 We are humbled by the magnitude of the responsibility we carry and 
-					 realize the lives that are associated with us are very valuable indeed.</p>
+					 realize the lives that are associated with us, are very valuable indeed.</p>
 				</div>
 				<div class="col-lg-4 me-auto">
-					<p class="lead">Need to insert content</p>
+					<p class="lead">Our long-stated strategy of balanced product mix, 
+					diversified distribution, continuous product innovation and
+					re-imagining insurance through effective use of technology has 
+					enabled us to continue our journey despite the
+					ever-changing external environment.</p>
 				</div>
 			</div>
 		</div>
@@ -375,9 +383,14 @@
 								<img class="img-fluid rounded mb-5"
 									src="assets/img/products/p1.png" alt="..." />
 								<!-- products Modal - Text-->
-								<p class="mb-4">Insert content here.</p>
+								<h4 class="color-h4">Have you factored in the rising medical costs?</h4>
+								<p class="mb-4"><p style="text-align:left">~ Worried about the spiraling health care costs than actual illness?
+								<br/>
+								~ Feel your savings will drain out if a medical emergency arises?
+								<br/>
+								~ Thinking about how much Insurance would be enough to handle unexpected large medical expenses?</p>
 								<form action="Health.jsp">
-                                      <button type="submit">Health Schems</button>
+                                      <button type="submit">Health Schemes</button>
                                       </form>
 							</div>
 						</div>
@@ -414,9 +427,12 @@
 								<img class="img-fluid rounded mb-5"
 									src="assets/img/products/p2.png" alt="..." />
 								<!-- products Modal - Text-->
-								<p class="mb-4">Insert content here</p>
-								<button class="btn btn-primary" href="#!"
-									data-bs-dismiss="modal">
+								<h4 class="color-h4">Have you saved enough to meet your expenses post-retirement?</h4>
+								<p class="mb-4"><p style="text-align:left">~ Inflation can eat away your dwindling retirement income easily.
+								</br>
+								~ With increasing life expectancy, the longer you live, the more you spend.
+								</br>
+								~ Start preparing early to save enough to support your needs and wants.</p>
 									<form action="Pension.jsp">
                                       <button type="submit">Pension Schemes</button>
                                       </form>
@@ -443,7 +459,7 @@
 							<div class="col-lg-8">
 								<!-- products Modal - Title-->
 								<h2
-									class="products-modal-title text-secondary text-uppercase mb-0">Life Insurance</h2>
+									class="products-modal-title text-secondary text-uppercase mb-0">Savings Plan</h2>
 								<!-- Icon Divider-->
 								<div class="divider-custom">
 									<div class="divider-custom-line"></div>
@@ -456,9 +472,12 @@
 								<img class="img-fluid rounded mb-5"
 									src="assets/img/products/p3.png" alt="..." />
 								<!-- products Modal - Text-->
-								<p class="mb-4">Insert content here</p>
-								<button class="btn btn-primary" href="#!"
-									data-bs-dismiss="modal">
+								<h4 class="color-h4">Disciplined savings to help achieve life goals in an uncertain world</h4>
+								<p class="mb-4"><p style="text-align:left">~ Protect your capital invested while you save money
+								</br>
+								~ Get regular returns on your savings structured as per your need
+								</br>
+								~ Make no compromise on an important life goal for yourself or family</p>
 									<form action="life.jsp">
                                       <button type="submit">Life Schemes</button>
                                       </form>
@@ -498,9 +517,15 @@
 								<img class="img-fluid rounded mb-5"
 									src="assets/img/products/p4.png" alt="..." />
 								<!-- products Modal - Text-->
-								<p class="mb-4">Insert content here</p>
-								<button class="btn btn-primary" href="#!"
-									data-bs-dismiss="modal">
+								<h4 class="color-h4">Go the extra mile to protect your automotive assets with vehicle insurance</h4>
+								<p class="mb-4"><p style="text-align:left">~ From cars, bus, trucks, bikes or any other vehicle running 
+								on the road, all are covered against own damages arising out of accidents, thefts, natural disasters, 
+								as well as the damages to a third party person/property.
+								</br>
+								~ So, no matter what your ride may be, the vehicle insurance from PLI covers it all.
+								</br>
+								~ Thus, before you gear up for your next ride, secure your vehicle  vehicle insurance 
+								policy and ensure peace of mind for yourself, all at an affordable price!</p>
 									<form action="vehicle.jsp">
                                       <button type="submit">Vehicle Schemes</button>
                                       </form>
@@ -540,9 +565,16 @@
 								<img class="img-fluid rounded mb-5"
 									src="assets/img/products/p5.png" alt="..." />
 								<!-- products Modal - Text-->
-								<p class="mb-4">Insert content here</p>
-								<button class="btn btn-primary" href="#!"
-									data-bs-dismiss="modal">
+								<h4 class="color-h4">Home Insurance Plans For Everybody</h4>
+								<p class="mb-4"><p style="text-align:left">~ For the Happy Tenants - 
+								Who take care of a house like their own
+								</br>
+								~ For Proud Home Owners - Who have invested in a dream 
+								</br>
+								~Safeguard your home's structure and content against 
+								unwanted events like theft, fire, natural calamities 
+								(storm, cyclones, etc.) or man-made activities 
+								(riots and terrorism).</p>
 									<form action="home.jsp">
                                       <button type="submit">Home Schemes</button>
                                       </form>
@@ -582,9 +614,18 @@
 								<img class="img-fluid rounded mb-5"
 									src="assets/img/products/p6.png" alt="..." />
 								<!-- products Modal - Text-->
-								<p class="mb-4">Insert content here</p>
-								<button class="btn btn-primary" href="#!"
-									data-bs-dismiss="modal">
+								<h4 class="color-h4">Don't risk your international trips
+								</br>
+								Get your Travel Insurance Now
+								</h4>
+								<p class="mb-4"><p style="text-align:left">~ Travel insurance 
+								secures your journey from financial loses that might incur due 
+								to any unforeseen events
+								</br>
+								~ like flight delays, luggage loss, checked-in baggage delays 
+								and any other journey-related risks. 
+								</br>
+								~  It can help you enjoy your journey with peace of mind.</p>
 									<form action="travel.jsp">
                                       <button type="submit">Travel Schemes</button>
                                       </form>
@@ -601,10 +642,6 @@
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	<!-- Core theme JS-->
 	<script src="js/scripts.js"></script>
-	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-	<!-- * *                               SB Forms JS                               * *-->
-	<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
 	<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 </html>

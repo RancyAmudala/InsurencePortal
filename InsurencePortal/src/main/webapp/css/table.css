@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.background
+{
+	position: 0;
+	padding: 0;
+	background: url(images/pli-1.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.color-h1
+{
+	color: #400080;
+}
+
+.color-h2
+{
+	color: #00ff00;
+}
+
+.color-h4
+{
+	color: #400080;
+}
+
+.color-h5
+{
+	color:#c0c0c0;
+}

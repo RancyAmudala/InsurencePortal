@@ -7,31 +7,43 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>List Schems Records</title>
+<title>List Schemes Records</title>
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/products.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/table.css">
+
 </head>
-<body style="background-color:#CCEEFF;">
+<body style="background-color:#fff;">
     <sql:setDataSource
         var="myDS"
         driver="com.mysql.jdbc.Driver"
-        url="jdbc:mysql://localhost:3306/Pension"
-        user="root" password="root123"
+        url="jdbc:mysql://localhost:3306/insurance"
+        user="root" password="Root@123"
     />
      
-    <sql:query var="pension"   dataSource="${myDS}">
+    <sql:query var="insurance"   dataSource="${myDS}">
         SELECT * FROM home;
     </sql:query>
      
     <div align="center">
         <table border="10" cellpadding="25">
-            <caption><h2>List of Home Schemes</h2></caption>
+            <caption><h1 class="color-h1">Home Insurance Plans</h1>
+            <h5 class="color-h5">Your cozy home, rented or owned is your world 
+            </br>Secure it today!</h5>
+            <h2 class="color-h2">List of Schemes</h2></caption>
             <tr>
+            	<th>Serial No.</th>
                 <th>Plan Name</th>
                 <th>Plan No.</th>
                 <th>UIN No.</th>
             </tr>
-            <c:forEach var="home" items="${pension.rows}">
+            <c:forEach var="home" items="${insurance.rows}">
                 <tr>
-                    <td><c:out value="${home.Pname}" /></td>
+                	<td><c:out value="${home.id}" /></td>
+                    <td><a href="${home.details }"><c:out value="${home.Pname}" /></a></td>
                     <td><c:out value="${home.PlanNo}" /></td>
                     <td><c:out value="${home.UINno}" /></td>
                 </tr>
