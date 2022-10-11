@@ -37,13 +37,13 @@
 								<label for="username"><i
 									class="zmdi zmdi-account material-icons-name"></i></label> <input
 									type="text" name="username" id="username"
-									placeholder="Your Name" />
+									placeholder="Your Name" required="required"/>
 									<td><span style="color:red">*</span></td>
 							</div>
 							<div class="form-group">
 								<label for="password"><i class="zmdi zmdi-lock"></i></label> <input
 									type="password" name="password" id="password"
-									placeholder="Password" />
+									placeholder="Password" required="required"/>
 									<td><span style="color:red">*</span></td>
 							</div>
 							<div class="form-group">

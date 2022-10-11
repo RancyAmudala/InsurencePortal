@@ -10,11 +10,13 @@
 <title>List Schems Records</title>
 
 <!-- Main css -->
+<link rel="stylesheet" href="css/vehiclebg.css">
 <link rel="stylesheet" href="css/products.css">
 <link rel="stylesheet" href="css/table.css">
 
 </head>
 <body style="background-color:#fff;">
+<div class="vehiclebg">
     <sql:setDataSource
         var="myDS"
         driver="com.mysql.jdbc.Driver"
@@ -49,6 +51,6 @@
             </c:forEach>
         </table>
     </div>
-
+</div>
 </body>
 </html>

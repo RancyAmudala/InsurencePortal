@@ -9,14 +9,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>List Schemes Records</title>
 
-<!-- Main css -->
+<!-- css -->
 <link rel="stylesheet" href="css/products.css">
-
-<!-- Main css -->
 <link rel="stylesheet" href="css/table.css">
+<link rel="stylesheet" href="css/homebg.css">
 
 </head>
 <body style="background-color:#fff;">
+<div class="homebg">
     <sql:setDataSource
         var="myDS"
         driver="com.mysql.jdbc.Driver"
@@ -50,6 +50,7 @@
             </c:forEach>
         </table>
     </div>
-
+</div>
 </body>
-</html>
+</html>    
+   

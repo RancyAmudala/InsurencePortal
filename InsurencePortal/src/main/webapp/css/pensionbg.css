@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.pensionbg
+{
+	position: 0;
+	padding: 0;
+	background-image: url("images/pension.png");
+	background-size: 100%;
+	font-family: sans-serif;
+}

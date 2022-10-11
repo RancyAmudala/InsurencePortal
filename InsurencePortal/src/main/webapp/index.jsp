@@ -105,7 +105,7 @@
 								<i class="fas fa-plus fa-3x"></i>
 							</div>
 						</div>
-						<img class="img-fluid" src="assets/img/products/p1.png"
+						<img class="img-fluid" src="assets/img/products/h.png"
 							alt="..." />
 					</div>
 				</div>
@@ -120,7 +120,7 @@
 								<i class="fas fa-plus fa-3x"></i>
 							</div>
 						</div>
-						<img class="img-fluid" src="assets/img/products/p2.png"
+						<img class="img-fluid" src="assets/img/products/pension.jpg"
 							alt="..." />
 					</div>
 				</div>
@@ -135,7 +135,7 @@
 								<i class="fas fa-plus fa-3x"></i>
 							</div>
 						</div>
-						<img class="img-fluid" src="assets/img/products/p3.png"
+						<img class="img-fluid" src="assets/img/products/lifeinsurance.jpg"
 							alt="..." />
 					</div>
 				</div>
@@ -165,7 +165,7 @@
 								<i class="fas fa-plus fa-3x"></i>
 							</div>
 						</div>
-						<img class="img-fluid" src="assets/img/products/p5.png"
+						<img class="img-fluid" src="assets/img/products/homeinsurance.jpg"
 							alt="..." />
 					</div>
 				</div>
@@ -221,94 +221,28 @@
 		</div>
 	</section>
 	<!-- Contact Section-->
-	<section class="page-section" id="contact">
-		<div class="container">
-			<!-- Contact Section Heading-->
-			<h2
-				class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact
-				Us</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom">
-				<div class="divider-custom-line"></div>
-				<div class="divider-custom-icon">
-					<i class="fas fa-star"></i>
-				</div>
-				<div class="divider-custom-line"></div>
-			</div>
-			<!-- Contact Section Form-->
-			<div class="row justify-content-center">
-				<div class="col-lg-8 col-xl-7">
-					<!-- * * * * * * * * * * * * * * *-->
-					<!-- * * SB Forms Contact Form * *-->
-					<!-- * * * * * * * * * * * * * * *-->
-					<!-- This form is pre-integrated with SB Forms.-->
-					<!-- To make this form functional, sign up at-->
-					<!-- https://startbootstrap.com/solution/contact-forms-->
-					<!-- to get an API token!-->
-					<form id="contactForm" data-sb-form-api-token="API_TOKEN">
-						<!-- Name input-->
-						<div class="form-floating mb-3">
-							<input class="form-control" id="name" type="text"
-								placeholder="Enter your name..." data-sb-validations="required" />
-							<label for="name">Full name</label>
-							<div class="invalid-feedback" data-sb-feedback="name:required">A
-								name is required.</div>
-						</div>
-						<!-- Email address input-->
-						<div class="form-floating mb-3">
-							<input class="form-control" id="email" type="email"
-								placeholder="name@example.com"
-								data-sb-validations="required,email" /> <label for="email">Email
-								address</label>
-							<div class="invalid-feedback" data-sb-feedback="email:required">An
-								email is required.</div>
-							<div class="invalid-feedback" data-sb-feedback="email:email">Email
-								is not valid.</div>
-						</div>
-						<!-- Phone number input-->
-						<div class="form-floating mb-3">
-							<input class="form-control" id="phone" type="tel"
-								placeholder="(123) 456-7890" data-sb-validations="required" />
-							<label for="phone">Phone number</label>
-							<div class="invalid-feedback" data-sb-feedback="phone:required">A
-								phone number is required.</div>
-						</div>
-						<!-- Message input-->
-						<div class="form-floating mb-3">
-							<textarea class="form-control" id="message" type="text"
-								placeholder="Enter your message here..." style="height: 10rem"
-								data-sb-validations="required"></textarea>
-							<label for="message">Message</label>
-							<div class="invalid-feedback" data-sb-feedback="message:required">A
-								message is required.</div>
-						</div>
-						<!-- Submit success message-->
-						<!---->
-						<!-- This is what your users will see when the form-->
-						<!-- has successfully submitted-->
-						<div class="d-none" id="submitSuccessMessage">
-							<div class="text-center mb-3">
-								<div class="fw-bolder">Form submission successful!</div>
-								To activate this form, sign up at <br /> <a
-									href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-							</div>
-						</div>
-						<!-- Submit error message-->
-						<!---->
-						<!-- This is what your users will see when there is-->
-						<!-- an error submitting the form-->
-						<div class="d-none" id="submitErrorMessage">
-							<div class="text-center text-danger mb-3">Error sending
-								message!</div>
-						</div>
-						<!-- Submit Button-->
-						<button class="btn btn-primary btn-xl disabled" id="submitButton"
-							type="submit">Send</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
+	<!-- Contact Section-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2
+                class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact
+                Us</h2>
+                
+     <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Contact Section Form-->
+                To Contact Us click on the above link <br /> <a
+                href="contact.jsp">Contact Us</a>
+   </section>
+     
+						
 	<!-- Footer-->
 	<footer class="footer text-center">
 		<div class="container">
@@ -341,8 +275,8 @@
 				<div class="col-lg-4">
 					<h4 class="text-uppercase mb-4">About Platinum Life</h4>
 					<p class="lead mb-0">
-						Every day we wake up to the fact that millions of lives are part of our family called Platinum Life.
-						<a href="http://startbootstrap.com">Platinum Life</a>.
+						Every day we wake up to the fact that millions of lives are
+						 part of our family called Platinum Life.
 					</p>
 				</div>
 			</div>
@@ -354,6 +288,7 @@
 			<small>Copyright &copy; Your Website 2022</small>
 		</div>
 	</div>
+</div>
 	<!-- products Modals-->
 	<!-- products Modal 1-->
 	<div class="products-modal modal fade" id="productsModal1"
@@ -381,7 +316,7 @@
 								</div>
 								<!-- products Modal - Image-->
 								<img class="img-fluid rounded mb-5"
-									src="assets/img/products/p1.png" alt="..." />
+									src="assets/img/products/h.png" alt="..." />
 								<!-- products Modal - Text-->
 								<h4 class="color-h4">Have you factored in the rising medical costs?</h4>
 								<p class="mb-4"><p style="text-align:left">~ Worried about the spiraling health care costs than actual illness?
@@ -425,7 +360,7 @@
 								</div>
 								<!-- products Modal - Image-->
 								<img class="img-fluid rounded mb-5"
-									src="assets/img/products/p2.png" alt="..." />
+									src="assets/img/products/pension.jpg" alt="..." />
 								<!-- products Modal - Text-->
 								<h4 class="color-h4">Have you saved enough to meet your expenses post-retirement?</h4>
 								<p class="mb-4"><p style="text-align:left">~ Inflation can eat away your dwindling retirement income easily.
@@ -470,7 +405,7 @@
 								</div>
 								<!-- products Modal - Image-->
 								<img class="img-fluid rounded mb-5"
-									src="assets/img/products/p3.png" alt="..." />
+									src="assets/img/products/lifeinsurance.jpg" alt="..." />
 								<!-- products Modal - Text-->
 								<h4 class="color-h4">Disciplined savings to help achieve life goals in an uncertain world</h4>
 								<p class="mb-4"><p style="text-align:left">~ Protect your capital invested while you save money
@@ -479,7 +414,7 @@
 								</br>
 								~ Make no compromise on an important life goal for yourself or family</p>
 									<form action="life.jsp">
-                                      <button type="submit">Life Schemes</button>
+                                      <button type="submit">Savings Schemes</button>
                                       </form>
 								</button>
 							</div>
@@ -563,7 +498,7 @@
 								</div>
 								<!-- products Modal - Image-->
 								<img class="img-fluid rounded mb-5"
-									src="assets/img/products/p5.png" alt="..." />
+									src="assets/img/products/homeinsurance.jpg" alt="..." />
 								<!-- products Modal - Text-->
 								<h4 class="color-h4">Home Insurance Plans For Everybody</h4>
 								<p class="mb-4"><p style="text-align:left">~ For the Happy Tenants - 

@@ -13,9 +13,11 @@
 
 <link rel="stylesheet" href="css/products.css">
 <link rel="stylesheet" href="css/table.css">
+<link rel="stylesheet" href="css/healthbg.css">
 
 </head>
 <body style="background-color:#fff;">
+    <div class="healthbg">
     <sql:setDataSource
         var="myDS"
         driver="com.mysql.jdbc.Driver"
@@ -48,6 +50,7 @@
             </c:forEach>
             </table>
             </br>
+    </div>
     </div>
 </body>
 </html>

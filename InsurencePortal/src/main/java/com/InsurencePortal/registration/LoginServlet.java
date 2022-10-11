@@ -27,6 +27,7 @@ public class LoginServlet extends HttpServlet {
 		String upwd = request.getParameter("password");
 		HttpSession session = request.getSession();
 		RequestDispatcher dispatcher = null;
+		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/insurance?useSSL=false","root","Root@123");

@@ -10,11 +10,14 @@
 <title>Schemes Record</title>
 
 <!-- css -->
-<link rel="stylesheet" href="css/products.css">
+<link rel="stylesheet" href="css/pensionbg.css">
 <link rel="stylesheet" href="css/table.css">
+<link rel="stylesheet" href="css/products.css">
+
 
 </head>
-<body style="background-color:#fff;">
+<body style="background-color:#fff">
+<div class="pensionbg">
 
     <sql:setDataSource
         var="myDS"
@@ -53,6 +56,6 @@
             </c:forEach>
         </table>
     </div>
-
+</div>
 </body>
 </html>

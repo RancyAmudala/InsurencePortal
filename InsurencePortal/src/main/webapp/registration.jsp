@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+<input type="hidden" id="status" value="<%= request.getAttribute("status") %>">
 	<div class="main">
 
 		<!-- Sign up form -->
@@ -24,12 +24,13 @@
 					<div class="signup-form">
 						<h2 class="form-title">Sign up</h2>
 					
-						<form method="" action="" class="register-form"
+						<form method="post" action="register" class="register-form"
 							id="register-form">
 							<div class="form-group">
 								<label for="name"><i
 									class="zmdi zmdi-account material-icons-name"></i></label> <input
-									type="text" name="name" id="name" placeholder="Your Name" />
+									type="text" name="name" id="name" placeholder="Your Name" maxlength="30"/>
+									<td><span style="color:red">*</span></td>
 							</div>
 							<div class="form-group">
 								<label for="email"><i class="zmdi zmdi-email"></i></label> <input
@@ -38,15 +39,22 @@
 							</div>
 							<div class="form-group">
 								<label for="pass"><i class="zmdi zmdi-lock"></i></label> <input
-									type="password" name="pass" id="pass" placeholder="Password" />
+									type="password" name="pass" id="pass" placeholder="Password" maxlength="14"/>
 									<td><span style="color:red">*</span></td>
 							</div>
 							<div class="form-group">
 								<label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
 								<input type="password" name="re_pass" id="re_pass"
-									placeholder="Repeat your password" />
+									placeholder="Repeat your password" maxlength="14"/>
 									<td><span style="color:red">*</span></td>
 							</div>
+							
+							<div class="form-group">
+								<label for="DOB"><i class="zmdi zmdi-email"></i></label> <input
+									type="date" name="date" id="date" placeholder="Date Of Birth" min="1981-01-01" />
+									<td><span style="color:red">*</span></td>
+							</div>
+							
 							<div class="form-group">
 							<label for="address"><i class="zmdi zmdi-lock-outline"></i></label>
 								<input type="text" name="address" id="address"
@@ -60,7 +68,7 @@
 							<div class="form-group">
 								<label for="contact"><i class="zmdi zmdi-lock-outline"></i></label>
 								<input type="number" name="contact" id="contact"
-									placeholder="Contact no" />
+									placeholder="Contact no"/>
 									<td><span style="color:red">*</span></td>
 							</div>
 							
@@ -100,6 +108,24 @@
   var status = document.getElementById("status").value;
   if(status == "success"){
 	  swal("Congrats", "Account Created Successfully", "success");
+  }
+  if(status == "InvalidName"){
+	  swal("Sorry", "Please Enter Name", "error");
+  }
+  if(status == "Invalidemail"){
+	  swal("Sorry", "Please Enter Email", "error");
+  }
+  if(status == "Invalidpwd"){
+	  swal("Sorry", "Password do not match", "error");
+  } 
+  if(status == "InvalidConfirmPassword"){
+	  swal("Sorry", "Please enter the password", "error");
+  }
+  if(status == "Invalidcontact"){
+	  swal("Sorry", "Please Enter Name", "error");
+  }
+  if(status == "InvalidMobileLength"){
+	  swal("Sorry", "Mobile Number should be of 10 digits", "error");
   }
 </script>
 

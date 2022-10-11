@@ -27,22 +27,58 @@ public class RegistrationServlet extends HttpServlet {
 		String uname =request.getParameter("name");
 		String uemail =request.getParameter("email");
 		String upwd =request.getParameter("pass");
+		String Reupwd =request.getParameter("re_pass");
 		String ucontact =request.getParameter("contact");
+		String udob =request.getParameter("date");
 		String uaddress =request.getParameter("address");
 		String gender =request.getParameter("gender");
 		RequestDispatcher dispatcher = null;
 		Connection con = null;
+		
+		if(uname == null || uname.equals("")) {
+			request.setAttribute("status", "InvalidName");
+		    dispatcher = request.getRequestDispatcher("registration.jsp");
+		    dispatcher.forward(request,  response);
+		}
+		if(uemail == null || uemail.equals("")) {
+			request.setAttribute("status", "Invalidemail");
+		    dispatcher = request.getRequestDispatcher("registration.jsp");
+		    dispatcher.forward(request,  response);
+		}
+		if(upwd == null || upwd.equals("")) {
+			request.setAttribute("status", "InvalidConfirmPassword");
+		    dispatcher = request.getRequestDispatcher("registration.jsp");
+		    dispatcher.forward(request,  response);
+		}
+		else if(!upwd.equals(Reupwd)){
+			request.setAttribute("status", "Invalidpwd");
+		    dispatcher = request.getRequestDispatcher("registration.jsp");
+		    dispatcher.forward(request,  response);
+			
+		}
+		if(ucontact == null || ucontact.equals("")) {
+			request.setAttribute("status", "Invalidcontact");
+		    dispatcher = request.getRequestDispatcher("registration.jsp");
+		    dispatcher.forward(request,  response);
+		}
+		else if(ucontact.length() > 10) {
+			request.setAttribute("status", "InvalidMobileLength");
+		    dispatcher = request.getRequestDispatcher("registration.jsp");
+		    dispatcher.forward(request,  response);
+		}
+		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/insurance?useSSL=false","root","Root@123");
 			PreparedStatement pst = con
-					.prepareStatement("insert into users(uname,upwd,uemail,ucontact,uaddress,gender) values(?,?,?,?,?,?)");
+					.prepareStatement("insert into users(uname,upwd,uemail,ucontact,udob,uaddress,gender) values(?,?,?,?,?,?,?)");
 			pst.setString(1, uname);
 			pst.setString(2, upwd);
 			pst.setString(3, uemail);
 			pst.setString(4, ucontact);
-			pst.setString(5, uaddress);
-			pst.setString(6, gender);
+			pst.setString(5, udob);
+			pst.setString(6, uaddress);
+			pst.setString(7, gender);
 			
 			int rowCount = pst.executeUpdate();
 			dispatcher = request.getRequestDispatcher("registration.jsp");
