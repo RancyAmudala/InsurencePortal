@@ -21,8 +21,7 @@
 			<h4>A limited premium deferred annuity plan with flexibility to 
 			choose premium payment term, deferment period and annuity 
 			payout date.</h4>
-<button class="btn-close" type="button" data-bs-dismiss="modal"
-						aria-label="Key Features">Key Features</button>
+<h5>👨‍🦳👵 Key Features:</h5>
 <p>
 ~ Pay premiums systematically for a limited premium paying term
 </br>
@@ -34,6 +33,8 @@
 </br>
 ~ Option  of Return of Total Premiums Paid on death 
 </p>
+</br>
+<a href="Pension.jsp">Go back</a>
 			</div>
 	</div>
 </body>

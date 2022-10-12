@@ -24,11 +24,8 @@
 In accordance with the Motor Vehicles Act 1988, it is compulsory for every 
 bike owner in India to have at least a third-party bike insurance policy.
 </br>
-</br>
-<button class="btn-close" type="button" data-bs-dismiss="modal" 
-aria-label="Key Features">Key Features</button>
-</br>
-</br>		
+<h5>🚗 Key Features:</h5>
+</br>	
 ~ Protection from legal fines
 </br>
 ~ Protection against third-party liability
@@ -39,6 +36,8 @@ aria-label="Key Features">Key Features</button>
 </br>
 ~ Personal accident cover 
 </p>
+</br>
+<a href="vehicle.jsp">Go Back</a>
 			</div>
 	</div>
 </body>

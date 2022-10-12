@@ -19,8 +19,7 @@
 			<div class ="content">
 			<h2>1. New Immediate Annuity Plan</h2>
 			<h4>A traditional Retirement Plan with guaranteed returns</h4>
-<button class="btn-close" type="button" data-bs-dismiss="modal"
-						aria-label="Key Features">Key Features</button>
+<h5>👨‍🦳👵 Key Features:</h5>
 <p>
 ~ Get Guaranteed Income during retirement at your desired frequency.
 </br>
@@ -28,8 +27,10 @@
 </br>
 ~ Get Return of Purchase Price upon death or critical illness.
 </br>
-~ EChoose your payout frequency– monthly, quarterly, half-yearly, or yearly.
+~ Choose your payout frequency– monthly, quarterly, half-yearly, or yearly.
 </p>
+</br>
+<a href="Pension.jsp">Go back</a>
 			</div>
 	</div>
 </body>

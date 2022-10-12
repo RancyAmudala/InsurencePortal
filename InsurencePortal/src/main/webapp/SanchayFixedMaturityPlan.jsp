@@ -22,8 +22,7 @@
 			<h4>A Non-Linked, Non-Participating, Individual, Savings, Life 
 			Insurance Plan that ensures you and your loved ones are financially 
 			protected.</h4>
-<button class="btn-close" type="button" data-bs-dismiss="modal"
-						aria-label="Key Features">Key Features</button>
+<h5>🎈 Key Features:</h5>
 <p>
 ~ Single/ Joint Life Cover - Option to choose cover on Single Life or Joint 
 Life basis
@@ -39,6 +38,8 @@ pay premium payment option
 Choice of Policy Terms – Option to choose from a range of Policy Terms upto 
 40 years
 </p>
+</br>
+<a href="life.jsp">Go Back</a>
 			</div>
 	</div>
 </body>

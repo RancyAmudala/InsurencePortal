@@ -327,6 +327,8 @@
 								<form action="Health.jsp">
                                       <button type="submit">Health Schemes</button>
                                       </form>
+                                      </br>
+                                      <a href="index.jsp"><button type="submit">Close</button></a>
 							</div>
 						</div>
 					</div>
@@ -371,7 +373,8 @@
 									<form action="Pension.jsp">
                                       <button type="submit">Pension Schemes</button>
                                       </form>
-								</button>
+                                      </br>
+                                      <a href="index.jsp"><button type="submit">Close</button></a>
 							</div>
 						</div>
 					</div>
@@ -416,7 +419,8 @@
 									<form action="life.jsp">
                                       <button type="submit">Savings Schemes</button>
                                       </form>
-								</button>
+                                      </br>
+                                      <a href="index.jsp"><button type="submit">Close</button></a>
 							</div>
 						</div>
 					</div>
@@ -464,7 +468,8 @@
 									<form action="vehicle.jsp">
                                       <button type="submit">Vehicle Schemes</button>
                                       </form>
-								</button>
+								</br>
+                                <a href="index.jsp"><button type="submit">Close</button></a>
 							</div>
 						</div>
 					</div>
@@ -513,7 +518,8 @@
 									<form action="home.jsp">
                                       <button type="submit">Home Schemes</button>
                                       </form>
-								</button>
+								</br>
+                                      <a href="index.jsp"><button type="submit">Close</button></a>
 							</div>
 						</div>
 					</div>
@@ -564,7 +570,8 @@
 									<form action="travel.jsp">
                                       <button type="submit">Travel Schemes</button>
                                       </form>
-								</button>
+								</br>
+                                      <a href="index.jsp"><button type="submit">Close</button></a>
 							</div>
 						</div>
 					</div>

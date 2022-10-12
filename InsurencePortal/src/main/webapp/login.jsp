@@ -25,8 +25,10 @@
 						<figure>
 							<img src="images/login-image.jpg" alt="login image">
 						</figure>
+						<div align="center">
 						<a href="registration.jsp" class="login-image-link">Create an
 							account</a>
+							</div>
 					</div>
 
 					<div class="signin-form">
@@ -85,7 +87,7 @@
 
   var status = document.getElementById("status").value;
   if(status == "failed"){
-	  swal("Sorry", "Wrong Username or password", "failed");
+	  swal("Sorry", "Wrong Username or password", "error");
   }
 </script>
 </body>

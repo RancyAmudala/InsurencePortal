@@ -26,8 +26,9 @@
 			<h4>provides coverage against loss, damage or destruction of the home 
 			building along with its contents against risk of fire, earthquake, 
 			flood and other allied perils.</h4>
-<button class="btn-close" type="button" data-bs-dismiss="modal"
-						aria-label="Key Features">Key Features</button>
+
+<h5>🏡 Key Features:</h5>
+
 <p>~ Covers your property & its contents for upto 10 years
 </br>
 ~ Waiver of under-insurance
@@ -38,7 +39,8 @@
 </br>
 ~ Insurance on Market value either for Building or content is not permitted
 </p>
-
+</br>
+<a href="home.jsp">Go Back</a>
 			</div>
 	</div>
 </body>

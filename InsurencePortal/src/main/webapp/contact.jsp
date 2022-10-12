@@ -54,7 +54,9 @@
                                 <input type="submit" name="send" id="send"
                                     class="form-send" value="send" />
                             </div>
-            </form>            
+            </form>
+            </br>
+            <a href="index.jsp"><button type="submit">Go Back</button></a>            
             </div>
             </div>
         </section>    

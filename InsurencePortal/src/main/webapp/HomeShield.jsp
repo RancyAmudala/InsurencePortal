@@ -21,8 +21,7 @@
 			<h4>covers the real value of the property as mentioned in the registered 
 agreement of the property and it also offers optional covers to personalize 
 the plan to meet your unique needs.</h4>
-<button class="btn-close" type="button" data-bs-dismiss="modal"
-						aria-label="Key Features">Optional Covers</button>
+<h5>🏡 Key Features:</h5>
 <p>
 ~ Expenses of shifting to alternate accommodation
 </br>
@@ -36,6 +35,8 @@ the plan to meet your unique needs.</h4>
 </br>
 ~ Jewellery & Valuables
 </p>
+</br>
+<a href="home.jsp">Go Back</a>
 			</div>
 	</div>
 </body>

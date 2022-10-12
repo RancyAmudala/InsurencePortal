@@ -21,8 +21,7 @@
 			<h2>3. Life Click 2 Retire</h2>
 			<h4>A market linked retirement plan ideal to set your goals, if you 
 			are an early starter</h4>
-<button class="btn-close" type="button" data-bs-dismiss="modal"
-						aria-label="Key Features">Key Features</button>
+<h5>👨‍🦳👵 Key Features:</h5>
 <p>
 ~ An unit linked pension plan with assured vesting benefits.
 </br>
@@ -38,6 +37,8 @@ and no exit charges.
 <h5>*In this policy, the investment risks in the investment portfolio is borne 
 by the policyholder</h5>
 </p>
+</br>
+<a href="Pension.jsp">Go back</a>
 			</div>
 	</div>
 </body>

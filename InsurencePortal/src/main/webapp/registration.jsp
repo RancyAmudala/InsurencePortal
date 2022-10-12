@@ -89,8 +89,10 @@
 						<figure>
 							<img src="images/register-image.jpg" alt="register image">
 						</figure>
+						<div align="center">
 						<a href="login.jsp" class="register-image-link">I am already
 							member</a>
+						</div>
 					</div>
 				</div>
 			</div>

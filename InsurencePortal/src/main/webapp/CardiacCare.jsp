@@ -21,8 +21,7 @@
 			<h2>3. PLI Cardiac Care</h2>
 			<h4>A Health Plan that has its heart in the right place.</h4>
 			
-<button class="btn-close" type="button" data-bs-dismiss="modal"
-aria-label="Key Features">Key Features</button>
+<h5>🩺 Key Features</h5>
 
 <p>
 ~ Get a cardiac cover of ₹ 10 Lakhs for just ₹ 5/Day.
@@ -36,6 +35,8 @@ diagnosis/procedure.
 </br>
 ~ Option to choose Indexation benefit to ensure you stay ahead of medical inflation.
 </p>
+</br>
+<a href="Health.jsp">Go Back</a>
 			</div>
 	</div>
 </body>

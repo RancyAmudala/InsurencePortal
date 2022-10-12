@@ -20,8 +20,7 @@
 			<h2>2. Corona Shield</h2>
 			<h4>This Combi plan helps to protect your savings by providing 
 			cover for treatment costs arising out of COVID-19 illness.</h4>
-<button class="btn-close" type="button" data-bs-dismiss="modal"
-						aria-label="Key Features">Key Features</button>
+<h5>🩺 Key Features</h5>
 <p>
 ~ ₹ 1 Cr. Life cover & ₹ 1 Lakh COVID-19 Cover @ ₹ 34/day.
 </br>
@@ -35,6 +34,8 @@
 </br>
 ~ Customize your plan with a choice of 3 plan options.
 </p>
+</br>
+<a href="Health.jsp">Go Back</a>
 			</div>
 	</div>
 </body>

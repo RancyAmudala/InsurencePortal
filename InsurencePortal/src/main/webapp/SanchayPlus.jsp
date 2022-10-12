@@ -22,8 +22,7 @@
 			<h4>A traditional Savings Plan with guaranteed1 regular returns to 
 			fulfill your family’s dreams with ease, whilst safeguarding their 
 			future against the unforeseen events.</h4>
-<button class="btn-close" type="button" data-bs-dismiss="modal"
-						aria-label="Key Features">Key Features</button>
+<h5>🎈 Key Features:</h5>
 <p>
 ~ Enjoy steady guaranteed income up to 99 years of age with our Life Long 
 Income option.
@@ -37,6 +36,8 @@ financial goals, or as a regular income.
 ~ In case of the death of the insured during the policy period, the nominee  
 has the option to receive death benefit as lump sum or regular income.
 </p>
+</br>
+<a href="life.jsp">Go Back</a>
 			</div>
 	</div>
 </body>

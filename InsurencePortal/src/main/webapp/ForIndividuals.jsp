@@ -27,6 +27,8 @@ Individual Travel Insurance, with its host of inbuilt benefits that make
 your travel experience smooth and seamless, is the trusted companion you need 
 to take along for company.
 </p>
+</br>
+<a href="travel.jsp">Go Back</a>
 			</div>
 	</div>
 </body>

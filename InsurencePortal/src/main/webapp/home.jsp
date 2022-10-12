@@ -49,6 +49,8 @@
                 </tr>
             </c:forEach>
         </table>
+        </br>
+        <a href="index.jsp"><button type="submit">Go Back</button></a>
     </div>
 </div>
 </body>

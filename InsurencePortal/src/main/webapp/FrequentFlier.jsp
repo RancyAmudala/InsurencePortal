@@ -26,6 +26,8 @@
 secure multiple trips under one comprehensive insurance plan. Enjoy multiple 
 trips, easy renewals, in-house claim settlement and so much more.
 </p>
+</br>
+<a href="travel.jsp">Go Back</a>
 			</div>
 	</div>
 </body>

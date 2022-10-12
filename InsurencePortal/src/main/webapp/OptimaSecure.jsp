@@ -20,8 +20,7 @@
 			<div class ="content">
 			<h2>1. Optima Secure</h2>
 			<h4>A comprehensive plan that offers life and health cover for you and your family</h4>
-<button class="btn-close" type="button" data-bs-dismiss="modal"
-						aria-label="Key Features">Key Features</button>
+<h5>Key Features</h5>
 <p>~ Provides comprehensive financial protection to your family
 </br>
 ~ Secure Benefit offers additional coverage
@@ -31,6 +30,8 @@ irrespective of a claim
 </br>
 ~ Protect Benefit pays towards the Non-Medical expenses like gloves, food 
 charges and other consumables during hospitalization</p>
+</br>
+<a href="Health.jsp">Go Back</a>
 			</div>
 	</div>
 </body>
